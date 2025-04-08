@@ -1,0 +1,134 @@
+h1{
+    color: aqua;
+    font: large;
+}
+.facebook{
+    padding: 7px;
+    margin: 10px;
+    width: 35%;
+    border-radius: 5%;
+    background-color: rgb(231, 241, 240);
+    text-align: center;
+    float: inline-end;
+    height: 12cm;
+    unicode-bidi: isolate;
+
+}
+input{
+    font-family: cursive;
+    height: 1cm;
+    width: 10cm;
+    border: 0.1cm;
+    border-style: solid;
+    display: list-item;
+    cursor: inherit;
+    border-radius: 5px;
+    input::placeholder {
+        color: #ccc; 
+        font-style: italic; 
+        opacity: 0.7; 
+    }
+    border: 1in;
+    text-align: center;
+    margin:  0 auto;
+}
+p{
+    font: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1, p {
+    text-align: center; 
+    margin: 0 auto;
+}
+.button{
+    background-color: green;
+    border-radius: 1%;
+    color: white;
+    width: 5cm;
+    justify-content: center;
+    text-align: center;
+    margin:  0 auto;
+    border-top-right-radius: 0.3cm;
+    border-bottom-left-radius:0.3cm ;
+    border-top-left-radius:0.3cm ;
+    border-bottom-right-radius: 0.3cm;
+    cursor: pointer;
+}
+.login{
+    background-color: blue;
+    color: white ;
+    border-top-right-radius: 0.3cm;
+    border-bottom-left-radius:0.3cm ;
+    border-top-left-radius:0.3cm ;
+    border-bottom-right-radius: 0.3cm;
+    cursor: pointer;
+}
+.placeholder:hover {
+    border: 2px solid #007BFF; 
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); 
+    background-color: #f0f8ff; 
+    transition: all 0.3s ease; 
+}
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    line-height: 1.34;
+    background-color: #f0f8ff;
+    direction: ltr;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+   height: 106px;
+}
+img {
+    display: block; 
+    margin: 0 auto 10px; 
+    height: 106px; 
+}
+
+h2 {
+    text-align: center; 
+    margin: 0; 
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.facebook {
+    padding: 0dvi;
+}
+.placeholder {
+    font-family: cursive;
+    height: 1cm;
+    width: 10cm;
+    border: 0.1cm;
+    border-style: solid;
+    display: list-item;
+    cursor: inherit;
+    border-radius: 5px;
+    input::placeholder {
+        color: #ccc; 
+        font-style: italic; 
+        opacity: 0.7; 
+    }
+    border: 1in;
+    text-align: justify;
+    margin:  0 auto;
+}
+
+.line {
+    align-items: center;
+    display: flex;
+    margin: 20px 16px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
